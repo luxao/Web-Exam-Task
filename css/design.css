@@ -1,0 +1,601 @@
+/* Autor : Lukáš Lobl */
+
+/*clearfix and settings */
+
+
+/* border-box */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* clearfix */
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #0D0D0D;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+
+}
+
+/*header*/
+
+header {
+    max-width: 100%;
+    height: 65em;
+    background-image: url('../img/bodyBck.jpeg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.post-header {
+    background: #f0f0f0;
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    transition: top 0.3s;
+    text-align: left;
+}
+
+.MENU {
+    /*float: left;*/
+    width: 20em;
+    display: inline-block;
+    margin: .75em;
+    z-index: 1;
+}
+
+#my-breadcrumb {
+    display: block;
+}
+
+p {
+    display: inline-block;
+    z-index: 10;
+}
+
+.counterPeople {
+    float: right;
+    display: inline-block;
+    text-align: right;
+    margin: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    /*font-family: "Merienda One",cursive;*/
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+.card {
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+    left: 0;
+    width: 25em;
+    opacity: 0.85;
+    height: auto;
+    border-radius: 5px;
+    font-weight: bold;
+    /*font-family: "Merienda One",cursive;*/
+    font-family: 'Amaranth', sans-serif;
+}
+
+/* section conctact us */
+
+#sectOne {
+    max-width: 100%;
+    margin: 1em;
+    height: 55em;
+}
+
+#sectTwo {
+    max-width: 100%;
+    height: 55em;
+    background-image: url("https://c.wallhere.com/photos/f7/86/Republic_of_Gamers_video_games-1278399.jpg!d");
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+}
+
+
+.thumbnail {
+    /*max-width: 100%;*/
+    width: 12.5em;
+    /*max-height: 100%;*/
+    cursor: pointer;
+    height: 12.5em;
+    object-fit: cover;
+    border: 1px solid #ABABAB;
+    border-radius: 0.5em;
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,4);
+
+    margin: .85em auto;
+}
+.thumbnail2 {
+    /*max-width: 100%;*/
+    width: 12.5em;
+    /*max-height: 100%;*/
+    cursor: pointer;
+    height: 12.5em;
+    object-fit: cover;
+    border: 1px solid #ABABAB;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,4);
+
+    margin: .85em auto;
+}
+
+.contactUs {
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.gameTime {
+    margin: 32em 1em;
+}
+
+#game1,#game2,
+#game3,#game4 {
+    border-radius: 35%;
+    text-align: center;
+}
+#game1:hover,
+#game2:hover,
+#game3:hover,
+#game4:hover {
+    box-shadow: 0 4px 8px 0 gold;
+}
+
+
+
+.card-body {
+    margin: 1em;
+    font-family: 'Amaranth', sans-serif;
+}
+
+h5 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myUL li,
+.myUL2 li{
+    list-style: none;
+}
+
+.myUL  li::before {
+    font-family: "Font Awesome 5 Free",sans-serif; font-weight: 900; content: "\f00c  "
+
+}
+.myUL2  li::before {
+    font-family: "Font Awesome 5 Free",sans-serif; font-weight: 900; content: "\f00d  "
+
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.contact-menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+
+}
+.contact-menu li {
+    display: inline-block;
+}
+
+.fa {
+    vertical-align: middle;
+}
+
+.social {
+    margin: 0;
+}
+
+.social .fa {
+    font-size: 1.0625em /* 17/16 */
+}
+
+.social-icon {
+    display: block;
+    width: 3.36em;
+    height: 3.36em;
+    line-height: 3.3em;
+
+    color: #989898;
+    background: #eeefed;
+    text-align: center;
+
+    border-radius: 0.15em;
+    margin-left: 0.15em;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    color: #fff;
+    background: #5bd0ec;
+}
+
+
+
+.card:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.back-to-top {
+    color: red;
+    position: fixed;
+    bottom: 5px;
+    right: 2em;
+    z-index: 10;
+    display: block;
+    opacity: .85;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+.card-body > a {
+    text-decoration: none;
+    color: #f0f0f0;
+    background: #0D0D0D;
+    padding: .185em;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.card-body > a:hover {
+    background: deepskyblue;
+    color: #0D0D0D;
+}
+
+
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+    box-shadow: 0 0 2px 1px #0D0D0D;
+}
+
+
+/*footer */
+#sectThree {
+    max-width: 100%;
+    height: 10em;
+    background: #ffffff;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+#sectThree p {
+    font-size: 1em;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 2em;
+}
+
+.footerInfo {
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.footerInfo li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+    #Meniny {
+        position: relative;
+        top: 40%;
+        right: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .thumbnail,
+    .thumbnail2 {
+        width: 8em;
+        height: 8em;
+    }
+
+    #Meniny {
+        position: relative;
+        top: 40%;
+        right: 0;
+    }
+
+    .contactUs {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .thumbnail2 {
+        width: 6em;
+        height: 6em;
+    }
+    .social-icon {
+        display: none;
+    }
+    .contactUs {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #sectOne {
+        height: auto;
+    }
+    #sectTwo {
+        height: auto;
+    }
+    #Meniny {
+        position: relative;
+        top: 40%;
+        right: 0;
+    }
+
+
+    .gameTime {
+        width: 100%;
+        height: auto;
+        margin: 1em auto;
+    }
+    .thumbnail2 {
+        width: 5em;
+        height: 5em;
+    }
+}
+
+@media (max-width: 550px) {
+    .thumbnail,
+    .thumbnail2 {
+        width: 9em;
+        height: 9em;
+    }
+
+    .post-header {
+        background: none;
+    }
+
+    #Meniny {
+        position: relative;
+        top: 40%;
+        right: 0;
+    }
+    .counterPeople {
+        float: none;
+        text-align: right;
+
+    }
+
+
+
+    .social-icon {
+        display: block;
+    }
+
+    .contactUs {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/*Lukas game*/
+#container {
+    max-width: 100%;
+    height: auto;
+}
+
+#gameOption {
+    width: 25rem;
+    height: 10.25rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+span {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: red;
+}
+
+#Play {
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 3px;
+    background: orangered;
+}
+
+#Play:hover {
+    background: #f0f0f0;
+    color: orangered;
+}
+
+#again {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 3px;
+    background: #bada55;
+}
+
+#again:hover {
+    background: black;
+    color: #bada55;
+}
+
+#Demo {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 3px;
+    background: #0D0D0D;
+}
+
+#Demo:hover {
+    background: goldenrod;
+    color: #0D0D0D;
+}
+
+canvas {
+!important;
+    max-width: 100%;
+    height: auto;
+}
+
+canvas img {
+!important;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.modalVideo {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 1.2em;
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}

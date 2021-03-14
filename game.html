@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/44b171361e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link href="css/design.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/konva/7.2.2/konva.min.js" integrity="sha512-zbpQ5DaXc34MZEg81DJZSHALTkKr1+eOspsa01J4FSVqhUHjCa/V1xvur7imE4UZcj40uYDIR21MEpxzG2OHvw==" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<main>
+    <div id="gameOption">
+        <button id="Demo">Demo</button>
+        <button id="Play">Play Game</button>
+        <button id="again">Play Again</button>
+
+        <span id="forWin"></span>
+        <h1><time>00:00:00</time></h1>
+        <span id="PlayTime"></span>
+    </div>
+    <div id="myModalVideo" class="modalVideo">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <video controls>
+                <source src="video/demo3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div id="container"></div>
+</main>
+
+
+
+<script src="js/game.js"></script>
+
+</body>
+
+</html>

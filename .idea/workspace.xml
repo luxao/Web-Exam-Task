@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06b159e6-b418-4add-9eb4-4b28fd59d526" name="Default Changelist" comment="neviem">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1lxlAKP4fs4oTHqRx2FvIQmnVJd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukas\PhpstormProjects\final" />
+      <recent name="C:\Users\lukas\PhpstormProjects\final\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06b159e6-b418-4add-9eb4-4b28fd59d526" name="Default Changelist" comment="" />
+      <created>1608546479138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608546479138</updated>
+      <workItem from="1608546480221" duration="1142000" />
+      <workItem from="1608548568935" duration="8946000" />
+      <workItem from="1608566522076" duration="4360000" />
+      <workItem from="1608571100039" duration="548000" />
+      <workItem from="1608571922774" duration="543000" />
+      <workItem from="1608643088566" duration="12481000" />
+      <workItem from="1608719055188" duration="2755000" />
+      <workItem from="1608727279008" duration="1945000" />
+      <workItem from="1609088510956" duration="6000" />
+      <workItem from="1609157312600" duration="11000" />
+      <workItem from="1609157644155" duration="7000" />
+      <workItem from="1609160854458" duration="5000" />
+      <workItem from="1609160972654" duration="3000" />
+      <workItem from="1609240233776" duration="10971000" />
+      <workItem from="1609251562329" duration="25977000" />
+      <workItem from="1609333425240" duration="3721000" />
+      <workItem from="1609337190423" duration="4924000" />
+      <workItem from="1609367665716" duration="8000" />
+      <workItem from="1609368510900" duration="14000" />
+      <workItem from="1609583365311" duration="669000" />
+      <workItem from="1609585812521" duration="5999000" />
+      <workItem from="1609609971628" duration="5288000" />
+      <workItem from="1609617412780" duration="897000" />
+      <workItem from="1609672519105" duration="3802000" />
+      <workItem from="1609677558008" duration="629000" />
+      <workItem from="1609695520566" duration="267000" />
+      <workItem from="1609717392508" duration="889000" />
+      <workItem from="1611088892274" duration="670000" />
+      <workItem from="1611304698639" duration="125000" />
+      <workItem from="1611307995309" duration="779000" />
+      <workItem from="1611590976881" duration="23000" />
+      <workItem from="1612706445162" duration="29000" />
+      <workItem from="1612706485654" duration="15000" />
+      <workItem from="1614336877017" duration="24000" />
+      <workItem from="1614347976506" duration="30000" />
+      <workItem from="1614513743378" duration="10000" />
+      <workItem from="1615719419183" duration="194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="neviem" />
+    <option name="LAST_COMMIT_MESSAGE" value="neviem" />
+  </component>
+</project>

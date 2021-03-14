@@ -1,0 +1,128 @@
+
+/*Miso Game*/
+
+body{
+    background-image: url('../img/backround_website.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+
+    box-shadow: 5px 5px 10px black;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f0f0;
+
+}
+#display{
+    font-family: 'Public Sans', sans-serif;
+    background-color: #eec41b;
+    box-shadow: 1px 1px 20px #bc9700;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.buttonPlay{
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+#idButton{
+    background-color: #202020;
+    padding: 10px;
+    color: ghostwhite;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#playButton {
+    display: flex;
+    size: 20px;
+}
+
+.container {
+
+
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.col1{
+    position: center;
+    text-align: center;
+
+    margin-outside: 100px;
+    background-color: #202020;
+    box-shadow: 5px 5px 10px black;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+#100{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.col2{
+    margin-left: 320px;
+    margin-right: 300px;
+    background-color: #202020;
+    position: center;
+    text-align: center;
+    border-radius: 30px ;
+    box-shadow: 5px 5px 10px #202020;
+}
+#idClose{
+    color: #202020;
+    background-color: #bc9700;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #202020;
+    padding: 5px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+}
+
+#kanva_container{
+    box-shadow: 5px 5px 15px black;
+    margin-left: 130px;
+    margin-right: 95px;
+
+    display: block;
+
+    justify-content: center;
+
+}
+/*Demo*/
+#fade1{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+.window1{
+    padding: 20px;
+    z-index: 20;
+    background: white;
+    position: fixed;
+    box-shadow: 2px 2px 5px #202020;
+    align-items: center;
+    justify-content: center;
+}

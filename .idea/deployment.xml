@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="WEBTECH1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/final" local="$PROJECT_DIR$" web="/final" />
+            <mapping deploy="/final/game.html" local="$PROJECT_DIR$" web="/final/game.html" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/game.html" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

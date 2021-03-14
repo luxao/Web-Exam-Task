@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/konva@7.2.2/konva.min.js"></script>
+    <meta charset="utf-8"/>
+    <title>Tank</title>
+    <link rel="stylesheet" href="css/misoGame.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container_xkaminsky">
+    <div class="row1">
+        <div class="col1" id="100">
+            <button class="buttonPlay">
+                <img id="playButton"
+                     src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg"/>
+            </button>
+
+            <button type="button" id="idButton" >
+                Demo
+            </button>
+
+        </div>
+        <div  class="col2" >
+            <h1><span class="time" id="display">00:00:00</span></h1>
+        </div>
+    </div>
+
+    <div id="kanva_container"></div>
+    <div id="fade1">
+        <div class="window1">
+            <video width="1280" height="720" controls>
+                <source src="video/puzzle_tank.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="idClose" > close</button>
+        </div>
+    </div>
+</div>
+
+<script src="js/xkaminsky_puzzle.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "menus": [
+    {
+      "id": "0",
+      "name": "Home",
+      "href": "/~xlobl/final/index.html"
+    },
+    {
+      "id": "1",
+      "name": "Contact us",
+      "href": "/~xlobl/final/index.html#sectOne"
+    },
+    {
+      "id": "2",
+      "name": "Next",
+      "href": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Náhľady hier",
+          "href": "/~xlobl/final/index.html#sectTwo"
+        },{
+          "id": "1",
+          "name": "End of Webpage",
+          "href": "/~xlobl/final/index.html#sectThree"
+        },
+        {
+          "id": "2",
+          "name": "Puzzles",
+          "href": null,
+          "children": [{
+            "id": "0",
+            "name": "Lukáš-Game",
+            "href": "/~xlobl/final/game.html"
+          },
+            {
+              "id": "1",
+              "name": "Roman-Game",
+              "href": "/~xlobl/final/romanGame.html"
+            },
+            {
+              "id": "2",
+              "name": "Mišo-Game",
+              "href": "/~xlobl/final/misoGame.html"
+            },
+            {
+              "id": "3",
+              "name": "Sebo-Game",
+              "href": "/~xlobl/final/seboGame.html"
+            }]
+        }
+      ]
+    }
+  ]
+}
